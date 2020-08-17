@@ -1,1 +1,3 @@
-kubectl create secret generic mysql-pass --from-literal=password=YOUR_PASSWORD
+1- clone from git 
+2- cd smarty-wp-content
+3-$ kubectl apply -k ./
